@@ -1,0 +1,103 @@
+/* clear margins and paddings */
+
+@charset: utf-8;
+html,
+body {
+    height: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 14px;
+}
+
+.topbar {
+    height: 34px;
+    width: auto;
+    background-color: #2B3840;
+}
+
+.topbar .icon img {
+    height: 30px;
+    width: auto;
+    margin-left: 5%;
+    vertical-align: middle;
+}
+
+.topbar .icon-text {
+    color: #D1DBE7;
+    font-size: 18px;
+    font-family: "Ubuntu", "MS Trebuchet", sans-serif;
+    vertical-align: middle;
+}
+
+#content-main {
+    height: 100%;
+    width: auto;
+}
+
+#content-main .login-box {
+    margin-top: 10%;
+    width: 50%;
+    height: 70%;
+    margin-left: 25%;
+    background-color: #FCFFFF;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+
+}
+
+
+
+.login-box .login-label {
+    margin-top: 2%;
+    padding-bottom: 2%;
+    /* margin-left: 5%; */
+    font-size  : 20px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    color: #444445;
+    border-bottom: 1px solid #dde4e8;
+    display:inline-block;
+}
+
+.login-box .login-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:  center;
+    height: 100%;
+
+}
+
+.login-box .login-category{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+
+.login-box .content-text {
+    font-size: 20px;
+}
+
+.login-category span{
+    margin-left:10px;
+}
+
+.login-category span:hover{
+    border-bottom: 3px solid #399AC9;
+    color: #399AC9
+}
+
+.login-category span:active{
+    border-bottom: 3px solid #399AC9;
+    color: #399AC9
+}
+
+#login-quickly{
+    height: 100%;
+}
+
+.resize-dropbox-height{
+}
